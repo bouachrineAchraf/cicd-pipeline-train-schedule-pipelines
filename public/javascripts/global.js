@@ -22,6 +22,7 @@ function populateTrains() {
 };
 
 function showTrainInfo(event) {
+	console.log('heloo');
 	event.preventDefault();
 	var train = trains[$(this).attr('rel')];
 	var tableContent = '<table class="table"><tr><th>Station</th></tr>';
